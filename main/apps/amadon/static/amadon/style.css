@@ -1,0 +1,50 @@
+.wrapper{
+    height: 400px;
+    width: 900px;
+    margin:opx auto;
+    padding: 0px;
+    background-color: silver;
+}
+#Dojo_products{
+    margin-top: 25px;
+    height: 200px;
+    width: 200px;
+    background-color: darkorchid;
+    display: inline-block;
+}
+#prices{
+    margin-top: 25px;
+    height: 200px;
+    width: 100px;
+    background-color: darkorchid;
+    display: inline-block;
+}
+#buy{
+    vertical-align: top;
+    margin-top: 25px;
+    height: 200px;
+    width: 150px;
+    background-color: darkorchid;
+    display: inline-block;
+}
+#prices li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+#buy li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+#Dojo_products li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+#prices h2{
+    margin-left: 20px;
+}
+#buy h2{
+    margin-left: 20px;
+}
+#Dojo_products h2{
+    margin-left: 30px;
+}

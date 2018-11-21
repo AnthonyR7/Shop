@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Purchase</title>
+</head>
+<body>
+    <h1>Thank you for your business!</h1>
+    {% for words in sentence  %}
+    {{words}}
+    {% endfor %}
+    <p>You have ordered {{amount_in_quantity}} items so far
+        and spent {{total}}
+    </p>
+    <form action = "/back" method = "POST">
+        {% csrf_token %}
+        <input type = "submit" name = "Back" value = 'Back'>
+      </form>
+</body>
+</html>
